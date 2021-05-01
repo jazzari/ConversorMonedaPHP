@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <title>Conversor de Moneda</title>
+  </head>
+  <body>
+    <h1>Conversor de Euros a Pesetas o Dólares</h1>
+    <h4>Alumno: Ariel Gustavo Brusa Ortega</h4>
+    <div class="contenedor">
+      <div class="form">
+        <form action="index.php" method="post">
+          <div class="monto">
+            <label for="monto">Introduzca la cantidad a convertir:</label>
+            <input type="number" name="monto" />
+          </div>
+          <div class="moneda">
+            <label for="moneda">Seleccione la Moneda deseada:</label>
+            <select name="moneda" id="moneda">
+              <option value="">Seleccione moneda</option>
+              <option value="pesetas">Pesetas</option>
+              <option value="dolares">Dólares</option>
+            </select>
+          </div>
+          <div class="botones">
+            <input type="submit" value="Convertir" />
+            <input type="reset" value="Borrar" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
