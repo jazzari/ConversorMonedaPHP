@@ -7,7 +7,6 @@
       define ("cantidad", 0);
     }
     if (isset($_POST['moneda'])) {
-       // define ("mon", $_POST['moneda']);
         $mon = $_POST['moneda'];
     }
     $peseta = 166.386;
